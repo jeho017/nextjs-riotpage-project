@@ -23,13 +23,16 @@ Typescript와 Next.js를 이용하여 라이엇 API를 활용한 리그 오브 �
 | 기획 완료 및 프로젝트 셋업         | 9/24(화)~9/26(목)            | 기획 준비 및 프로젝트 세팅 시작 |                                                 |
 | 기능 개발            | 9/27(금)~9/30(월)               |     챔피언 목록 페이지 구현, 챔피언 상세 데이터 페이지 구현                     |                            |
 | 기능 개발            | 10/01(화)~10/02(수)               |        챔피언 로테이션 페이지 구현                     |  |
-| 기능, 디자인 개발 | 10/03(목)~10/04(금) | 스타일 적용 및 디테일 작업           아이템 목록 페이지 구현 및 전체 레이아웃과 해당 페이지 CSS 구현                     |                                  |
+| 기능, 디자인 개발 | 10/03(목)~10/04(금) | 아이템 목록 페이지 구현 및 전체 레이아웃과 해당 페이지 CSS 구현                     |                                  |
 | 배포 및 트러블 슈팅           | 10/05(토)~10/07(월)               | 배포 및 트러블 슈팅 분석                   |                                                 |
 | 총 개발 기간             | 9/24(목)~10/07(일) 총 14일 |                                                           |
 
 ## :hammer_and_wrench: STACK
 
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Zustand](https://img.shields.io/badge/zustand-black?style=for-the-badge&logoColor=white) ![React Query](https://img.shields.io/badge/-React%20Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens) ![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)  ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
+![Next.js]<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=Next.js&logoColor=white"/>
+![Typescript]<img src="https://img.shields.io/badge/Typescript-3178C6?style=flat-square&logo=Typescript&logoColor=white"/>
+![Tailwind Css]<img src="https://img.shields.io/badge/Tailwind CSS-06B6D4?style=flat-square&logo=Tailwind CSS&logoColor=white"/>
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react%20query&logoColor=white) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-
 
 ## :fountain_pen: Code Convention
 
