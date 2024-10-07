@@ -35,51 +35,6 @@ Typescript와 Next.js를 이용하여 라이엇 API를 활용한 리그 오브 �
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
 <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black"/>
 
-## :fountain_pen: Code Convention
-
-- prettier 사용
-- `상태 관리`: context API
-- `라우팅 관리`: react-router-dom
-- `변수, 함수명`: camelCase
-  - 명시적으로 사용: addPostHandler
-- `컴포넌트`
-  - 컴포넌트 명: PascalCase
-  - 컴포넌트가 아닐 경우: camelCase 적용
-  - export default '함수명' 사용
-- `Styled-component`
-  - 네이밍은 앞에 St가 붙는다. (StHeader)
-  - 명시적으로 사용: StPostList
-
-## :paintbrush: Github Rules
-
-Branch, Commit, Commit 규칙
-
-### :pushpin: Branch
-
-- `main`: 배포용 브랜치
-- `develop`: 릴리즈 통합 브랜치
-- `feature/브랜치명`: 기능 개발 브랜치
-
-### :pushpin: Commit
-
-- `feat`: 새로운 기능 추가
-- `fix`: 버그 수정
-- `update`: 오타, 간단 수정 ⇒ 누락 등(로직 변화 없음)
-- `refactor`: 코드 리팩토링
-
-### :pushpin: 규칙
-
-- 커밋 규칙
-  - 최상단에 작업 타입, 현재 작업하는 페이지 작성
-  - 하단엔 어떤 기능을 추가했는지 명시적으로 작성
-
-```bash
-feat: 로그인 페이지 기능 구현
-- Input 함수 추가
-- 회원가입과 로그인 로직 구현
-- 로그인, 회원가입 폼 컴포넌트 구현
-```
-
 ## :card_index_dividers: 주요 기능 소개
 
 | 요구사항              | 선택                     | 이유                                                                                               |
@@ -88,8 +43,6 @@ feat: 로그인 페이지 기능 구현
 | DB 활용       | json-server            | 로그인/회원가입 기능의 인증/인가 로직이 필요하고, <br/>Restful한 개발을 훈련해 볼 수 있으며,<br/> 실무에서는 거의 REST API를 사용하기 때문에 채택             |
 | API                | 카카오,축제,유튜브                    | 키워드에 따른 검색 결과를 데이터로 받기 위해 youtube data api를 사용하고<br/> 그 데이터를 영상으로 띄우기 위해 iframe player api 사용, 카카오 지도의 경우 축제 주제가 국내 한정인 이유와 함께<br/> 다양한 api 기능을 보여주고 접근성이 좋기 때문에 채택하였고 축제 데이터의 경우에는 최신 상태의 다양한 축제 데이터가 존재하기 때문에 채택   |
 | 코드블럭              | react-syntax-highlighter | npm.js 사이트에서 demo코드도 확인이 가능하고 설명이 잘 되어있었음                                  |
-| RRD(react-router-dom)                | useNavigate, useLocation, useParams, useSearchParms         | 효율적으로 페이지를 전환하고 URL에 맞는 컴포넌트를 보여주기 위해 매우 유용하기 때문에 채택    |
-
 ### :one: 메인 페이지
 
 ![mainpage](https://github.com/user-attachments/assets/b69e279b-268c-429c-ba43-0633fbd3be8c)
@@ -128,12 +81,3 @@ feat: 로그인 페이지 기능 구현
   - 상세페이로 이동이 가능합니다.
   - 북마크 취소가 가능합니다.
 
-## 소감
-- 김민규
-  - 프로젝트 초기 기획단계에서 필수기능구현과 도전기능을 결정하는 부분에서 안전하게 프로젝트를 진행하기 위해 도전 기능을 추가하는 것에 소극적인 부분이 아쉬운 부분도 있었지만, 프로젝트를 진행하며 모두 적극적으로 임하였고 최종적으로 필수,도전 기능 구현에 있어 완성도있게 잘 마무리되어 좋았습니다. 
-- 선채훈
-  - 처음 프로젝트 기획하고 파트 분배할 때 어떻게 나눠야할지에 대해 어려움이 있었지만 역할 분배 이후에 팀적으로 어려웠던 부분은 크게 없었던거같고 추석 연휴에도 팀원분들이 휴식없이 프로젝트를 진행해주셔서 기간안에 잘 끝낼 수 있었던거같습니다
-- 강수진
-  - 처음부터 필수 기능을 목적으로 가볍게 기획을 하여서 심적 부담이 크게 줄어서 좋았고, 기획을 하는 데에 다들 의견이 많아 회의가 늘어지는 부분이 좀 아쉬웠지만 기획 단계가 지나고서부터는 다들 원활하게 소통하며 팀 과제를 진행하여서 만족스러웠습니다. API를 다룰 수 있게 되어 매우 뿌듯합니다.
-- 이재호
-  - 처음으로 다양한 API를 활용하여 프로젝트를 진행하려고 했다보니 업무 분배에 있어서 원활하지 못했던 것이 아쉬웠고 팀원들께서 맡은 업무를 다 잘 수행해주셔서 시간이 지날 수록 수월하게 프로젝트를 진행하였던 것 같습니다. 
