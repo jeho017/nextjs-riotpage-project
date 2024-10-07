@@ -34,19 +34,8 @@ Typescript와 Next.js를 이용하여 라이엇 API를 활용한 리그 오브 �
 <img src="https://img.shields.io/badge/Tailwind CSS-06B6D4?style=flat-square&logo=Tailwind CSS&logoColor=white"/>
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
 <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black"/>
-
-## :card_index_dividers: 주요 기능 소개
-
-| 요구사항              | 선택                     | 이유                                                                                               |
-| --------------------- | ------------------------ | -------------------------------------------------------------------------------------------------- |
-| 상태 관리 라이브러리 | zustand, tanstack-query                 | 불필요한 전역 state를 로컬 state로 관리하고, <br/>가벼운 전역 state 관리를 위해 zustand 채택 |
-| DB 활용       | json-server            | 로그인/회원가입 기능의 인증/인가 로직이 필요하고, <br/>Restful한 개발을 훈련해 볼 수 있으며,<br/> 실무에서는 거의 REST API를 사용하기 때문에 채택             |
-| API                | 카카오,축제,유튜브                    | 키워드에 따른 검색 결과를 데이터로 받기 위해 youtube data api를 사용하고<br/> 그 데이터를 영상으로 띄우기 위해 iframe player api 사용, 카카오 지도의 경우 축제 주제가 국내 한정인 이유와 함께<br/> 다양한 api 기능을 보여주고 접근성이 좋기 때문에 채택하였고 축제 데이터의 경우에는 최신 상태의 다양한 축제 데이터가 존재하기 때문에 채택   |
-| 코드블럭              | react-syntax-highlighter | npm.js 사이트에서 demo코드도 확인이 가능하고 설명이 잘 되어있었음                                  |
-### :one: 메인 페이지
-
-![mainpage](https://github.com/user-attachments/assets/b69e279b-268c-429c-ba43-0633fbd3be8c)
-
+                               |
+### :one: 홈 페이지
 
 - 사용자의 현재 위치 측정
 - 축제 전체 리스트 노출
@@ -56,26 +45,21 @@ Typescript와 Next.js를 이용하여 라이엇 API를 활용한 리그 오브 �
     - 상세보기: 축제 상세페이지로 이동
     - 저장하기: 북마크에 저장 (마이페이지에서 확인 가능) 
 
-### :two: 로그인,회원가입
-
-![auth](https://github.com/user-attachments/assets/de79eb2c-1ae6-4522-b531-df2c10733340)
+### :two: 챔피언 목록 페이지 및 챔피언 설명 페이지
 
 - 회원가입
   - 사용자의 아이디, 비밀번호, 닉네임을 입력 후 등록된 아이디인지 판별하여 회원가입 처리
 - 로그인
   - 사용자의 아이디, 비밀번호 판별 후 로그인 처리
 
-### :three: 상세 페이지
-
-![detail](https://github.com/user-attachments/assets/528f9e60-5b55-49ad-b2e9-1fa4a5446b86)
+### :three: 아이템 페이지
 
 - 선택한 축제 YOUTUBE 상위 검색 영상 노출
 - 선택한 축제 KAKAO MAP 마커 등록
 - 선택한 축제 상세 데이터 노출
 
-### :four: 마이 페이지
+### :four: 챔피언 로테이션 페이지
 
-![mypage](https://github.com/user-attachments/assets/271c0e55-9708-4d53-83d1-9b9c809ab39f)
 
 - 북마크에 저장한 축제 리스트를 확인할 수 있습니다.
   - 상세페이로 이동이 가능합니다.
