@@ -34,7 +34,7 @@ Typescript와 Next.js를 이용하여 라이엇 API를 활용한 리그 오브 �
 <img src="https://img.shields.io/badge/Tailwind CSS-06B6D4?style=flat-square&logo=Tailwind CSS&logoColor=white"/>
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
 <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black"/>
-                               |
+                               
 ### :one: 홈 페이지
 
 - 사용자의 현재 위치 측정
